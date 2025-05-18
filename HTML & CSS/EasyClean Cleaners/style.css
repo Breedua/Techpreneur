@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.404);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.background {
+    background: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-list {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+}
+
+.logo h1 {
+    color: rgba(240, 254, 255, 0.904);
+    font-size: 18px;
+    margin-right: 550px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 15px 15px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.778);
+    font-size: 18px;
+}
+
+.nav-list li a:hover {
+    color: rgba(0, 139, 139, 0.292);
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+.rightnav:hover {
+    color: rgba(0, 139, 139, 0.564);
+}
+
+.firstsection {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+    color: black;
+    background-size: cover; 
+    background-image: url("young-woman-with-afro-posing-with-laundry-overalls.jpg");  
+}
+
+.firstHalf {
+    padding: 10px;
+    background-color: rgba(94, 13, 100, 0.25);
+
+}
+
+.text-big {
+    font-family: 'Piazzolla', serif;
+    font-weight: 900;
+    font-size: 39px;
+    text-align: center;
+}
+
+.text-small {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+}
+
+.ss li {
+    list-style: none;
+    padding: 20px 25px;
+}
+
+.ss li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+.ss a:hover {
+    color: rgba(0, 139, 139, 0.292);
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.button {
+    width: 30;
+    cursor: pointer;
+    background-color: black;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    color: antiquewhite;
+    padding: 15px;
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.button:hover {
+    color: rgba(0, 139, 139, 0.564);
+}
+
+.secondsection {
+    display: flex;
+    margin-top: 50px;
+    height: 400px;
+    width: 70%;
+    overflow: hidden;
+    flex: 1 1 100%;  
+    align-items: cover;
+    justify-content: space-between;
+    border: 10px;
+    margin-left: 140px; 
+    margin: 0 auto; 
+    margin-top: 30px;
+    padding: 25px;
+}
+
+.secondhalf {
+    color: black;
+    max-width: 80%;
+    height: 80%;
+    opacity: .8;
+}
+
+.secondhalf img {
+    width: 300px;
+    height: 300px;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+ 
+.slider {
+    width: 800px;
+    height: 600px;
+    background: url("dan-gold-aJN-jjFLyCU-unsplash.jpg");
+    animation: slide 20s infinite;
+    margin: 50px auto;
+}
+@keyframes slide{
+    25%{ background: url("daniele-bissoli-u25sfT6lv-Q-unsplash.jpg");}
+    50%{ background: url("jordan-bigelow-Bh2SZQEGCpE-unsplash.jpg");}
+    75%{ background: url("raychan-vkpVPcIBU5U-unsplash.jpg");}
+    100%{ background: url("seongmin-park-p1qYb9pvLPU-unsplash.jpg");}
+}
+
+li {
+display: list-item;
+font-size: 22px;
+padding: 20px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: auto;
+    background-color: rgba(165, 42, 42, 0.205);
+    margin-top: 40px;
+}
+
+.section-Left {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0px 65px;
+    background-color: none;
+}
+
+.thumbnail img {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+.center {
+    text-align: center;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
